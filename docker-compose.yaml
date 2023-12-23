@@ -6,4 +6,3 @@ services:
     container_name: docker-cron-container
     volumes:
       - ./logs:/var/log/
-#      - ./cron:/etc/cron.d
