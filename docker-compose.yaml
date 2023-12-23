@@ -1,0 +1,9 @@
+version: '3'
+services:
+  cron-container:
+    build: .
+    image: docker-cron
+    container_name: docker-cron-container
+    volumes:
+      - ./logs:/var/log/
+#      - ./cron:/etc/cron.d

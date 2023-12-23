@@ -1,0 +1,3 @@
+# Content of hello-cron
+* * * * * root echo "Hello world" >> /var/log/cron.log 2>&1
+0  0 * * * root /script/update_runetracker.sh Zezima >> /var/log/rs3_Zezima.log 2>&1
